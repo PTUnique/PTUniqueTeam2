@@ -1,0 +1,102 @@
+🐻 8장:: Object(객체) Abstract(추상) & Class
+
+🐻 9장:: class Instance, Constructor(생성자), Static(공유자원), this();
+📌 Constructor code Template EX)
+    public class Hero {
+        public Hero(String name, int hp) {
+            this.name = name;
+            this.hp = hp;
+        }
+    }
+
+🐻 10장:: Encapsulation(캡슐화) (private | getter&setter)
+
+🐻 10-2장:: Collection(컬랙선) (래퍼클래스:: Integer| Double | Boolean | Charater | Long )
+- List :: 탐색방법
+- Iterator :: 중간에 삭제시 유용
+- for-each :: 꺼낼때 사용
+- for :: 인덱스가 필요할때
+- set    |map                |ArrayList
+  중복x   |키(중복x)-값(중복o)  |순서o|자동으로 배열 크기가 늚
+
+
+🐻 11장:: Inheritance(상속) :: is a 원칙으로 상속
+- extends :: 상속할때 쓰는 키워드
+- final :: 상수
+- Overload || Override
+[📻👶🏻 super의 method || constructor 호출방법 👶🏻📻]
+super.메서드();
+super(부모 생성자);
+
+🐻 12장:: Abstract(추상) > extends & Interface > implements
+🐻 13장:: Polymorphism(다형성)
+📌 Polymorphism code Template EX)
+    Drawable[] all = { house, dog, car };
+    for(Drawable d:all){
+    d.daw();
+    }
+
+
+🐻 enum & generic
+enum  :: 선택지만 쓰도록 강제(사용할 변수들을 나열해서 오타/잘못된 값 원천 차단)
+📌 제네릭 code Template EX)
+    public class 클래스명<T> {
+        private T data;
+        public void set(T data) {
+            this.data = data;
+        }
+        public T get() {
+            return data;
+        }
+    }
+
+🐻 인스턴스 기본조작
+toString :: 객체를 문자열로 보여줄 때 정의
+📌 toString Override code Template EX)
+
+    @Override
+    public String toString() {
+        return "필드명=" + 변수명;
+    }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (this == obj) return true;
+        if (!(obj instanceof 클래스명)) return false;
+
+        클래스명 other = (클래스명) obj;
+        return 필드명 == other.필드명;
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(필드명); //여러개일 경우 "," 찍어서 추가할 수 있음
+    }
+📌전체 코드 흐름
+    public class Hero {
+
+        private String name;
+        private int hp;
+
+        @Override
+        public String toString() { //🚨 객체 정보를 문자열로 반환
+            return "Hero [name=" + name + ", hp=" + hp + "]";
+        }
+
+        @Override
+        public boolean equals(Object obj) { //🚨 객체의 내용(값)이 같은지 비교
+            if (this == obj) return true;
+            if (!(obj instanceof Hero)) return false;
+
+            Hero other = (Hero) obj;
+
+            return hp == other.hp &&
+                   Objects.equals(name, other.name);
+        }
+
+        @Override
+        public int hashCode() { //🚨 객체의 해시값 생성 (equals()와 함께 사용
+            return Objects.hash(name, hp);
+        }
+    }
+

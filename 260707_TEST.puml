@@ -1,0 +1,9 @@
+@startuml
+
+class human {
+    - String name
+    - int hp
+    - int age
+}
+
+@enduml

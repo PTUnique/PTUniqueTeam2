@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a9c02e84-97b1-4963-8775-f4d303d3bc76" name="Changes" comment="260707_git 팀 프로젝트 재 push">
+      <change afterPath="$PROJECT_DIR$/두번째 협업 작업" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="feature-ui" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0" />
+      <entry key="S2" value="1.0" />
+      <entry key="S5" value="1.000000000235893" />
+      <entry key="S10" value="1.0000499526923816" />
+      <entry key="S30" value="1.2228617887607722" />
+      <entry key="S60" value="3.5066422024210677" />
+      <entry key="M2" value="11.548610852805734" />
+      <entry key="M5" value="30.470984253332812" />
+      <entry key="M10" value="46.12122255989286" />
+      <entry key="M15" value="53.9956809881524" />
+      <entry key="M30" value="64.01646420538103" />
+      <entry key="H1" value="70.07442978542991" />
+      <entry key="H2" value="73.41950174179091" />
+      <entry key="H4" value="75.17906926700559" />
+      <entry key="D1" value="76.69213905556941" />
+      <entry key="W1" value="76.95591130090247" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="0.0" />
+      <entry key="S2" value="0.0" />
+      <entry key="S5" value="0.0" />
+      <entry key="S10" value="0.0" />
+      <entry key="S30" value="0.0" />
+      <entry key="S60" value="0.0" />
+      <entry key="M2" value="0.0" />
+      <entry key="M5" value="0.0" />
+      <entry key="M10" value="0.0" />
+      <entry key="M15" value="0.0" />
+      <entry key="M30" value="0.0" />
+      <entry key="H1" value="0.0" />
+      <entry key="H2" value="0.0" />
+      <entry key="H4" value="0.0" />
+      <entry key="D1" value="0.0" />
+      <entry key="W1" value="0.0" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="0.9201876506248751" />
+      <entry key="MS500" value="0.9835020740262483" />
+      <entry key="S2" value="0.9958497530944581" />
+      <entry key="S5" value="0.9983378299395655" />
+      <entry key="S10" value="0.9992184375070331" />
+      <entry key="S30" value="1.2224309801092406" />
+      <entry key="S60" value="3.5056349061431313" />
+      <entry key="M2" value="11.546812675439767" />
+      <entry key="M5" value="30.469163188279985" />
+      <entry key="M10" value="46.11989388282993" />
+      <entry key="M15" value="53.994660352911204" />
+      <entry key="M30" value="64.01586990895338" />
+      <entry key="H1" value="70.07410764335725" />
+      <entry key="H2" value="73.41933382270739" />
+      <entry key="H4" value="75.17898351315053" />
+      <entry key="D1" value="76.69212450669126" />
+      <entry key="W1" value="76.95590921610945" />
+    </decayedShown>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3,
+  &quot;fromUser&quot;: false
+}</component>
+  <component name="ProjectId" id="3GA4VACPBdzJetF0XvewWBkIprs" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "feature-ui",
+    "junie.onboarding.icon.badge.shown": "true",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "to.speed.mode.migration.done": "true",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-37e91769500f-intellij.indexing.shared.core-IU-261.25134.95" />
+        <option value="bundled-js-predefined-d6986cc7102b-31caf2ab9e3c-JavaScript-IU-261.25134.95" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a9c02e84-97b1-4963-8775-f4d303d3bc76" name="Changes" comment="" />
+      <created>1783401060208</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1783401060208</updated>
+      <workItem from="1783401061277" duration="3786000" />
+      <workItem from="1783407403263" duration="477000" />
+    </task>
+    <task id="LOCAL-00001" summary="260707_git 팀 프로젝트">
+      <option name="closed" value="true" />
+      <created>1783401178090</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1783401178090</updated>
+    </task>
+    <task id="LOCAL-00002" summary="260707_git 팀 프로젝트 재 push">
+      <option name="closed" value="true" />
+      <created>1783401793106</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1783401793106</updated>
+    </task>
+    <task id="LOCAL-00003" summary="260707_git 팀 프로젝트 재 push">
+      <option name="closed" value="true" />
+      <created>1783401868485</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1783401868485</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="260707_git 팀 프로젝트" />
+    <MESSAGE value="260707_git 팀 프로젝트 재 push" />
+    <option name="LAST_COMMIT_MESSAGE" value="260707_git 팀 프로젝트 재 push" />
+  </component>
+</project>

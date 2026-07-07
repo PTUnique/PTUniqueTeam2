@@ -4,6 +4,7 @@ class human {
     - String name
     - int hp
     - int age
+    - int code
 }
 
 @enduml

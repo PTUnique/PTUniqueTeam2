@@ -99,3 +99,4 @@ toString :: 객체를 문자열로 보여줄 때 정의
             return Objects.hash(name, hp);
         }
     }
+
